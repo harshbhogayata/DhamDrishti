@@ -2,7 +2,7 @@
 
 A temple heritage guide for Vadodara, Gujarat — documenting sacred architectures of the "Sanskari Nagari" (City of Culture).
 
-Live site: https://dham-drishti.vercel.app
+Live site: https://dhamdrishti1.vercel.app
 
 ---
 
