@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Kirti Mandir",
+    "location": "Near Vishwamitri Bridge, Vadodara",
+    "category": "Royal Heritage",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kirti_Mandir%2C_Vadadora_%28Baroda%29_-_India_%285129626012%29.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kashi Vishwanath Mahadev Temple",
+    "location": "Vadodara City",
+    "category": "Royal Heritage",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Kashi_Vishwanath_Temple_%28Vadodara%29_%28google%29.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Khandoba Temple",
+    "location": "Heart of Vadodara City",
+    "category": "Royal Heritage",
+    "image": "https://i0.wp.com/lh3.googleusercontent.com/-Y3coeDmRlTA/Vp8XMj8FnxI/AAAAAAAADHE/jS88GDx_0wk/s720-Ic42/ShriKhandobaTemple.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jagannath Temple (Dhairya Prasad Palace)",
+    "location": "Dhairyasheel Palace Compound",
+    "category": "Royal Heritage",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "name": "EME Temple (Dakshinamurthy Temple)",
+    "location": "Fatehgunj, Vadodara Cantonment",
+    "category": "Modern Engineering",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dakshinamoorthy_%26_Navgraha_EME_Temple.jpg/1280px-Dakshinamoorthy_%26_Navgraha_EME_Temple.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tapovan Temple",
+    "location": "Near Refinery Area, Vadodara",
+    "category": "Modern Engineering",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2c/13/a9/p-20190304-164618-largejpg.jpg"
+  },
+  {
+    "id": 7,
+    "name": "ISKCON Vadodara",
+    "location": "Gotri, Vadodara",
+    "category": "Vaishnavite",
+    "image": "https://www.trawell.in/admin/images/upload/461310417Vadodara_ISKCON_Temple_Main.jpg"
+  },
+  {
+    "id": 8,
+    "name": "BAPS Shri Swaminarayan Mandir (Atladara)",
+    "location": "Atladara, Vadodara",
+    "category": "Vaishnavite",
+    "image": "https://www.baps.org//Data/Sites/1/Media/LocationImages/127127-atladra.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Nilkanthdham Poicha",
+    "location": "Banks of Narmada River, ~60km from Vadodara",
+    "category": "Vaishnavite",
+    "image": "https://thumbs.dreamstime.com/b/poicha-swaminarayan-temple-nilkanth-dham-near-vadodara-gujarat-great-saint-shastriji-maharaj-has-commenced-various-121636294.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Sarveshwar Mahadev (Sursagar Lake)",
+    "location": "Sursagar Lake, Central Vadodara",
+    "category": "Shaivite",
+    "image": "https://www.gujarattourism.com/content/dam/gujrattourism/images/flora--fauna/sursagar-lake/Sursagar-Lake-Thumbnail.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Kuber Bhandari Temple",
+    "location": "Karnali, Triveni Sangam",
+    "category": "Shaivite",
+    "image": "https://temple.yatradham.org/public/Product/temple/temple_FATf7DWT_202409151820270.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Kayavarohan (Lakulish Temple)",
+    "location": "Karvan, near Vadodara",
+    "category": "Shaivite",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lakulish_Shiv_Temple_-_Kayavarohan_-_Gujarat_-_DSC001.jpg/1280px-Lakulish_Shiv_Temple_-_Kayavarohan_-_Gujarat_-_DSC001.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Nareshwar (Rang Avadhoot Ashram)",
+    "location": "Banks of Narmada, Karjan",
+    "category": "Shaivite",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Nareshwar1.jpg/1280px-Nareshwar1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Amba Mata Mandir",
+    "location": "Mandvi, Old City, Vadodara",
+    "category": "Shakti",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-o/1a/98/bc/c7/shri-jai-ambe-sarvajanik.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Sheetla Mata Mandir",
+    "location": "Karelibaug, Vadodara",
+    "category": "Shakti",
+    "image": "https://images.jdmagicbox.com/v2/comp/vadodara/f9/0265px265.x265.200927023444.p9f9/catalogue/shitla-mata-mandir-tp-13-vadodara-temples-j01IVu1npL.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Bahucharaji Temple",
+    "location": "Karelibaug, Vadodara",
+    "category": "Shakti",
+    "image": "https://images.jdmagicbox.com/comp/vadodara/b6/0265px265.x265.190912193034.b2b6/catalogue/bahucharaji-temple-karelibaug-vadodara-temples-xviqfy5f1u.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Bhidbhanjan Maruti Temple",
+    "location": "Harni Village, Vadodara",
+    "category": "Hanuman",
+    "image": "https://images.jdmagicbox.com/comp/vadodara/z5/0265px265.x265.180411160140.j9z5/catalogue/shree-panchmukhi-hanuman-temple-harni-vadodara-temples-w406qvafmj.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Khanderi Hanuman Temple",
+    "location": "Dabhoi Road, Vadodara",
+    "category": "Hanuman",
+    "image": ""
+  },
+  {
+    "id": 19,
+    "name": "Zand Hanuman Temple",
+    "location": "Jambughoda Sanctuary",
+    "category": "Hanuman",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/2a/a1/05/img20200314161658-largejpg.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Tambekar Wada",
+    "location": "Old City, Vadodara",
+    "category": "Heritage Mansion",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/d5/40/e8/caption.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Navagraha Mandir",
+    "location": "Pratap Nagar, Vadodara",
+    "category": "Specialized Shrine",
+    "image": "https://i0.wp.com/historyofvadodara.in/wp-content/uploads/Tour-Strcuture-near-Navagraha-Mandir_2024.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Lal Akhada",
+    "location": "Government Faraskhana, Vadodara",
+    "category": "Akhada Heritage",
+    "image": "https://content.jdmagicbox.com/v2/comp/vadodara/v9/0265px265.x265.220321011929.h8v9/catalogue/lal-court-madan-zampa-road-vadodara-judicial-courts-XFTqgh6b8g.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Manikrao Akhada",
+    "location": "Vadodara",
+    "category": "Akhada Heritage",
+    "image": "https://lifespringyoga.in/wp-content/uploads/2023/08/Jummadado-Vyayamsala-gymkhana-vadodara.png"
+  },
+  {
+    "id": 24,
+    "name": "Nyay Mandir",
+    "location": "Near Mandvi Gate, Vadodara",
+    "category": "Civic-Sacred Heritage",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Nyay_Mandir_-_Vadodara_-_Gujarat_-_DSC001.jpg"
+  }
+]

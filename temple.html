@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Details | DhamDrishti Vadodara</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙏</text></svg>">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header class="details-hero" id="heroBanner">
+        <a href="index.html" class="back-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5" />
+                <path d="M12 19l-7-7 7-7" />
+            </svg>
+            Back to Directory
+        </a>
+        <div class="details-hero__content">
+            <span class="category-badge" id="categoryBadge"
+                style="position: relative; top: auto; left: auto; margin-bottom: 1rem; display: inline-block;">Vadodara</span>
+            <h1 class="hero__title" id="templeName" style="text-align: left; font-size: 3rem; margin-bottom: 1rem;">
+                Loading...</h1>
+            <p class="hero__subtitle" id="templeSummary" style="text-align: left; max-width: 800px; margin: 0;">
+                Retrieving archival entry...</p>
+        </div>
+    </header>
+
+    <!-- Main Grid -->
+    <main class="details-grid">
+
+        <!-- Left Content -->
+        <div class="main-content">
+            <div class="content-block">
+                <h2>History & Legend</h2>
+                <p id="historyText">Loading...</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Architectural Typology</h2>
+                <p id="architectureText">Loading...</p>
+            </div>
+
+            <!-- Extra Details Section for Rich Data -->
+            <div class="content-block" id="extraDetailsBlock" style="display: none;">
+                <h2 id="extraDetailsTitle">Special Features</h2>
+                <p id="extraDetailsText"></p>
+            </div>
+
+            <div class="content-block">
+                <h2>Operational Logistics</h2>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 1rem;">
+                    <div class="logistics-item">
+                        <div class="info-label">Timings</div>
+                        <div id="timingsDetail"
+                            style="color: var(--text-primary); margin-top: 0.5rem; font-size: 1rem;">—</div>
+                    </div>
+                    <div class="logistics-item">
+                        <div class="info-label">Entry Fee</div>
+                        <div id="entryFeeDetail"
+                            style="color: var(--text-primary); margin-top: 0.5rem; font-size: 1rem;">—</div>
+                    </div>
+                    <div class="logistics-item">
+                        <div class="info-label">Restrictions</div>
+                        <div id="restrictionsDetail" style="color: var(--gold); margin-top: 0.5rem; font-size: 1rem;">—
+                        </div>
+                    </div>
+                    <div class="logistics-item">
+                        <div class="info-label">Current Status</div>
+                        <div id="statusDetail" style="color: var(--text-primary); margin-top: 0.5rem; font-size: 1rem;">
+                            —
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h2>Festival Calendar & Best Time</h2>
+                <div
+                    style="background: rgba(212, 168, 83, 0.1); padding: 1.5rem; border-left: 3px solid var(--gold); margin-top: 1rem;">
+                    <div style="margin-bottom: 1rem;">
+                        <div class="info-label">Key Festival / Events</div>
+                        <div id="festivalDetail"
+                            style="color: var(--gold); font-size: 1.3rem; margin-top: 0.5rem; font-family: 'Cinzel', serif;">
+                            —</div>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <div class="info-label">Best Time to Visit</div>
+                        <div id="bestTimeDetail" style="color: var(--text-primary); margin-top: 0.5rem;">—</div>
+                    </div>
+                    <div id="diningSection" style="display: none;">
+                        <div class="info-label">Dining / Prasad</div>
+                        <div id="diningDetail"
+                            style="color: var(--text-primary); margin-top: 0.5rem; font-style: italic;">—</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block" id="accommodationBlock" style="display: none;">
+                <h2>Accommodation</h2>
+                <p id="accommodationDetail">—</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Geolocation</h2>
+                <div class="map-container">
+                    <iframe id="mapFrame" loading="lazy" src=""></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar">
+            <div class="info-card">
+                <div class="info-row">
+                    <div class="info-label">Primary Deity</div>
+                    <div class="info-value" id="deityName">—</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Category</div>
+                    <div class="info-value" id="categoryName" style="font-size: 1rem;">—</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Location</div>
+                    <div class="info-value" id="locationName" style="font-size: 1rem;">—</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Operational Hours</div>
+                    <div class="info-value" id="timings" style="font-size: 1rem;">—</div>
+                </div>
+                <div class="info-row" id="aartiRow" style="display: none;">
+                    <div class="info-label">Aarti Timings</div>
+                    <div class="info-value" id="aartiInfo"
+                        style="font-size: 0.9rem; font-weight: 400; color: var(--text-secondary);">—</div>
+                </div>
+                <div class="info-row" id="contactRow" style="display: none;">
+                    <div class="info-label">Contact</div>
+                    <div class="info-value" id="contactInfo"
+                        style="font-size: 0.9rem; font-weight: 400; color: var(--text-secondary);">—</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Region</div>
+                    <div class="info-value" id="regionInfo"
+                        style="font-size: 0.9rem; font-weight: 400; color: var(--text-secondary);">Vadodara District
+                    </div>
+                </div>
+                <div class="info-row" style="padding-top: 1rem; margin-top: 0.5rem;">
+                    <a id="mapsLink" href="#" target="_blank" class="temple-card__btn" style="width: 100%;">
+                        Get Directions
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                            <polyline points="15 3 21 3 21 9" />
+                            <line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer__content">
+            <div class="footer__brand">
+                <span class="footer__logo">धाम दृष्टि</span>
+                <p class="footer__tagline">Vadodara Temple Heritage Guide</p>
+            </div>
+            <div class="footer__info">
+                <p>&copy; 2026 DhamDrishti — Documenting the sacred architectures of the Sanskari Nagari</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Data & Logic -->
+    <script src="assets/data.js"></script>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id = parseInt(params.get('id'));
+        const temple = window.templesData.find(t => t.id === id);
+
+        if (!temple) {
+            document.body.innerHTML = `
+                <div style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #0c0a09; color: #fafaf9; font-family: 'Cinzel', serif;">
+                    <h1 style="font-size: 2rem; margin-bottom: 1rem;">Entry Not Found</h1>
+                    <p style="color: #a8a29e; margin-bottom: 2rem;">The requested archival entry does not exist.</p>
+                    <a href="index.html" style="color: #d4a853; text-decoration: none; border: 1px solid #d4a853; padding: 0.75rem 2rem;">Return to Archive</a>
+                </div>`;
+        } else {
+            // Title
+            document.title = `${temple.name} | DhamDrishti Vadodara`;
+
+            // Hero
+            document.getElementById('heroBanner').style.backgroundImage = `url('${temple.image || 'assets/placeholder.svg'}')`;
+            document.getElementById('templeName').textContent = temple.name;
+            document.getElementById('templeSummary').textContent = temple.summary;
+            document.getElementById('categoryBadge').textContent = temple.category || temple.region || 'Vadodara';
+
+            // Main Content
+            document.getElementById('historyText').textContent = temple.history || "Historical documentation pending for this sacred site.";
+            document.getElementById('architectureText').textContent = temple.architecture || "Architectural documentation pending.";
+
+            // Extra Details (art features, garden, facilities, etc.)
+            const extraBlock = document.getElementById('extraDetailsBlock');
+            let extraContent = '';
+            let extraTitle = '';
+
+            if (temple.artFeatures) {
+                extraTitle = 'Art & Cultural Features';
+                extraContent = temple.artFeatures;
+            } else if (temple.gardenMuseum) {
+                extraTitle = 'Garden & Museum';
+                extraContent = temple.gardenMuseum;
+            } else if (temple.attractions) {
+                extraTitle = 'Attractions';
+                extraContent = temple.attractions;
+            } else if (temple.complex) {
+                extraTitle = 'Complex Features';
+                extraContent = temple.complex;
+            } else if (temple.significance) {
+                extraTitle = 'Significance';
+                extraContent = temple.significance;
+            } else if (temple.rituals) {
+                extraTitle = 'Rituals & Traditions';
+                extraContent = temple.rituals;
+            }
+
+            if (extraContent) {
+                extraBlock.style.display = 'block';
+                document.getElementById('extraDetailsTitle').textContent = extraTitle;
+                document.getElementById('extraDetailsText').textContent = extraContent;
+            }
+
+            // Logistics
+            document.getElementById('timingsDetail').textContent = temple.timings || "Standard Hours";
+            document.getElementById('entryFeeDetail').textContent = temple.entryFee || "Free Entry";
+            document.getElementById('restrictionsDetail').textContent = temple.restrictions || "None specified";
+            document.getElementById('statusDetail').textContent = temple.status || "Open to visitors";
+
+            // Festival & Best Time
+            document.getElementById('festivalDetail').textContent = temple.festivals || temple.festival || "Various Hindu festivals";
+            document.getElementById('bestTimeDetail').textContent = temple.bestTime || "All year round. Winter months (Oct-March) recommended.";
+
+            // Dining
+            const diningSection = document.getElementById('diningSection');
+            if (temple.dining || temple.prasad) {
+                diningSection.style.display = 'block';
+                document.getElementById('diningDetail').textContent = temple.dining || temple.prasad;
+            }
+
+            // Accommodation
+            const accommodationBlock = document.getElementById('accommodationBlock');
+            if (temple.accommodation) {
+                accommodationBlock.style.display = 'block';
+                document.getElementById('accommodationDetail').textContent = temple.accommodation;
+            }
+
+            // Sidebar
+            document.getElementById('deityName').textContent = temple.deity;
+            document.getElementById('categoryName').textContent = temple.category || 'Heritage Site';
+            document.getElementById('locationName').textContent = temple.location;
+            document.getElementById('timings').textContent = temple.timings || "Sunrise to Sunset";
+            document.getElementById('regionInfo').textContent = temple.region || 'Vadodara District';
+
+            // Aarti
+            const aartiRow = document.getElementById('aartiRow');
+            if (temple.aarti) {
+                aartiRow.style.display = 'block';
+                document.getElementById('aartiInfo').textContent = temple.aarti;
+            }
+
+            // Contact
+            const contactRow = document.getElementById('contactRow');
+            if (temple.contact) {
+                contactRow.style.display = 'block';
+                document.getElementById('contactInfo').textContent = temple.contact;
+            }
+
+            // Map
+            const lat = temple.coordinates?.lat;
+            const lng = temple.coordinates?.lng;
+            if (lat && lng) {
+                document.getElementById('mapFrame').src = `https://maps.google.com/maps?q=${lat},${lng}&z=14&output=embed`;
+                document.getElementById('mapsLink').href = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DhamDrishti | Vadodara Temple Heritage Guide</title>
+    <meta name="description"
+        content="Explore the sacred architectures and spiritual geographies of Vadodara - the Sanskari Nagari. Comprehensive guide to 24 temples with history, architecture, and visitor logistics.">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙏</text></svg>">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero__badge-container">
+            <span class="hero__city-badge">संस्कारी नगरी</span>
+        </div>
+        <div class="hero__logo">धाम दृष्टि</div>
+        <h1 class="hero__title">DhamDrishti</h1>
+        <p class="hero__tagline">Vadodara Temple Heritage Guide</p>
+        <p class="hero__subtitle">
+            Explore the sacred architectures of the <em>Sanskari Nagari</em> — from Gaekwad royal cenotaphs
+            to Narmada riverine sanctuaries, modernist engineering temples to hidden heritage sites.
+        </p>
+        <div class="hero__stats">
+            <div class="hero__stat">
+                <span class="hero__stat-number">24</span>
+                <span class="hero__stat-label">Sacred Sites</span>
+            </div>
+            <div class="hero__stat">
+                <span class="hero__stat-number">7</span>
+                <span class="hero__stat-label">Categories</span>
+            </div>
+            <div class="hero__stat">
+                <span class="hero__stat-number">400+</span>
+                <span class="hero__stat-label">Years of Heritage</span>
+            </div>
+        </div>
+        <button class="hero__cta" onclick="document.getElementById('archive').scrollIntoView({behavior: 'smooth'})">
+            Explore Temples
+        </button>
+    </header>
+
+    <!-- Category Navigation -->
+    <nav class="category-nav" id="categoryNav">
+        <div class="category-nav__container">
+            <button class="category-btn active" data-category="all">
+                <span class="category-btn__icon">🕉️</span>
+                <span class="category-btn__label">All Temples</span>
+            </button>
+            <button class="category-btn" data-category="Royal Heritage">
+                <span class="category-btn__icon">👑</span>
+                <span class="category-btn__label">Royal Gaekwad</span>
+            </button>
+            <button class="category-btn" data-category="Modern Engineering">
+                <span class="category-btn__icon">🔧</span>
+                <span class="category-btn__label">Modern</span>
+            </button>
+            <button class="category-btn" data-category="Vaishnavite">
+                <span class="category-btn__icon">💙</span>
+                <span class="category-btn__label">Vaishnavite</span>
+            </button>
+            <button class="category-btn" data-category="Shaivite">
+                <span class="category-btn__icon">🔱</span>
+                <span class="category-btn__label">Shaivite</span>
+            </button>
+            <button class="category-btn" data-category="Shakti">
+                <span class="category-btn__icon">🌺</span>
+                <span class="category-btn__label">Shakti</span>
+            </button>
+            <button class="category-btn" data-category="Hanuman">
+                <span class="category-btn__icon">🐒</span>
+                <span class="category-btn__label">Hanuman</span>
+            </button>
+            <button class="category-btn" data-category="Heritage">
+                <span class="category-btn__icon">🏛️</span>
+                <span class="category-btn__label">Hidden Heritage</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Archive -->
+    <main class="container" id="archive">
+        <div class="section-header">
+            <h2 class="section-header__title">Temple Directory</h2>
+            <div class="section-header__divider"></div>
+            <p class="section-header__description">
+                <span id="templeCount">24</span> sacred sites of Vadodara — organized by spiritual tradition
+            </p>
+        </div>
+
+        <div class="temples-grid" id="templesGrid">
+            <!-- Cards Injected via JS -->
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            <div class="no-results__icon">🔍</div>
+            <p class="no-results__text">No temples found in this category</p>
+        </div>
+    </main>
+
+    <!-- Quick Info Section -->
+    <section class="quick-info">
+        <div class="quick-info__container">
+            <h2 class="quick-info__title">Planning Your Visit</h2>
+            <div class="quick-info__grid">
+                <div class="quick-info__card">
+                    <div class="quick-info__icon">🌅</div>
+                    <h3>Best Time</h3>
+                    <p>October to March for pleasant weather. Mahashivratri & Navratri for festivals.</p>
+                </div>
+                <div class="quick-info__card">
+                    <div class="quick-info__icon">🚉</div>
+                    <h3>Getting Here</h3>
+                    <p>Vadodara Junction is well-connected. Vadodara Airport (BDQ) serves major cities.</p>
+                </div>
+                <div class="quick-info__card">
+                    <div class="quick-info__icon">👔</div>
+                    <h3>Dress Code</h3>
+                    <p>Modest attire recommended. EME Temple strictly enforces dress code.</p>
+                </div>
+                <div class="quick-info__card">
+                    <div class="quick-info__icon">📸</div>
+                    <h3>Photography</h3>
+                    <p>Allowed in most temples. EME Temple strictly prohibits photography (military area).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer__content">
+            <div class="footer__brand">
+                <span class="footer__logo">धाम दृष्टि</span>
+                <p class="footer__tagline">Vadodara Temple Heritage Guide</p>
+            </div>
+            <div class="footer__info">
+                <p>&copy; 2026 DhamDrishti — Documenting the sacred architectures of the Sanskari Nagari</p>
+                <p class="footer__credit">Created with reverence for the spiritual heritage of Vadodara</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Data & Logic -->
+    <script src="assets/data.js"></script>
+    <script>
+        const grid = document.getElementById('templesGrid');
+        const data = window.templesData;
+        const categoryButtons = document.querySelectorAll('.category-btn');
+        const noResults = document.getElementById('noResults');
+        const templeCount = document.getElementById('templeCount');
+
+        let currentCategory = 'all';
+
+        function createCard(temple) {
+            const article = document.createElement('article');
+            article.className = 'temple-card';
+            article.dataset.category = temple.category;
+
+            const imgSrc = temple.image || 'assets/placeholder.svg';
+
+            article.innerHTML = `
+                <div class="temple-card__image-wrapper">
+                    <img class="temple-card__image" 
+                         src="${imgSrc}" 
+                         alt="${temple.name}" 
+                         loading="lazy"
+                         onload="this.classList.add('loaded')"
+                         onerror="this.src='assets/placeholder.svg';this.classList.add('loaded')">
+                    <span class="temple-card__badge">${temple.badge || ''}</span>
+                    <span class="category-badge">${temple.category}</span>
+                </div>
+                <div class="temple-card__content">
+                    <h3 class="temple-card__name">${temple.name}</h3>
+                    <p class="temple-card__location">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        ${temple.location}
+                    </p>
+                    <p class="temple-card__deity">${temple.deity}</p>
+                    <p class="temple-card__summary">${temple.summary}</p>
+                    
+                    <a href="temple.html?id=${temple.id}" class="temple-card__btn">
+                        View Details
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            `;
+            return article;
+        }
+
+        function filterTemples(category) {
+            const cards = grid.querySelectorAll('.temple-card');
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const cardCategory = card.dataset.category;
+                const shouldShow = category === 'all' || cardCategory === category ||
+                    (category === 'Heritage' && ['Heritage Mansion', 'Specialized Shrine', 'Akhada Heritage', 'Civic-Sacred Heritage'].includes(cardCategory));
+
+                if (shouldShow) {
+                    card.style.display = '';
+                    card.style.animation = 'fadeIn 0.4s ease backwards';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            templeCount.textContent = visibleCount;
+            noResults.style.display = visibleCount === 0 ? 'flex' : 'none';
+        }
+
+        // Category button handlers
+        categoryButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                categoryButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentCategory = btn.dataset.category;
+                filterTemples(currentCategory);
+            });
+        });
+
+        // Render
+        if (data && data.length > 0) {
+            data.forEach(temple => {
+                grid.appendChild(createCard(temple));
+            });
+            templeCount.textContent = data.length;
+        } else {
+            grid.innerHTML = '<p style="text-align:center; color:var(--text-muted); width:100%; padding: 4rem;">Loading temple data...</p>';
+        }
+    </script>
+</body>
+
+</html>
